@@ -54,7 +54,7 @@ namespace CarvedRock.Api
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CarvedRock.Api", Version = "v1",
-                    Description = "The API for the best outdoor recreational gear on the planet!"});
+                    Description = "Modified by Samuel: The API for the best outdoor recreational gear on the planet!"});
             });
         }
 
